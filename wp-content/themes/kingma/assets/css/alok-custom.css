@@ -1,0 +1,9 @@
+@charset "utf-8";
+.ih-item .hw-image img{
+    height: 90vh;
+    padding-top: 5vh;
+}
+.Main_Heading{
+    top: 6rem;
+}
+.page-id-4138 .side-menu{display:none !important;}

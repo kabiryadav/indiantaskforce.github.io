@@ -1,0 +1,1 @@
+/*!/wp-content/plugins/allow-webp-image/public/js/allow-webp-image-public.js*/(function($){'use strict'})(jQuery);

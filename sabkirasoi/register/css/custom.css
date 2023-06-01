@@ -1,0 +1,471 @@
+@font-face {
+	font-family: Digital-7;
+	src: url(https://res.cloudinary.com/indianpac/raw/upload/naf/fonts/Digital-7.woff) format("woff"), url(https://res.cloudinary.com/indianpac/raw/upload/naf/fonts/Digital-7.ttf) format("truetype");
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "digital-7.regular";
+	src: url(https://res.cloudinary.com/indianpac/raw/upload/naf/fonts/digital-7.regular.eot), url(https://res.cloudinary.com/indianpac/raw/upload/v1532943577/naf/fonts/digital-7.regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "Uni Ila.Sundaram-02";
+	src: url(../fonts/Uni.html\ Ila.Sundaram-02.ttf), url(../fonts/Uni.html\ Ila.Sundaram-02.ttf) format("truetype");
+	font-weight: 900;
+	font-style: normal
+}
+
+.mobile {
+	display: none
+}
+
+p.digital_numbers {
+	font-family: Digital-7 !important;
+}
+
+/* START: Header Section */
+.sec-tamil nav li a {
+	font-size: 16px;
+	letter-spacing: 0px;
+}
+
+.sec-tamil .section-title h2 {
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+
+.custom-form .error {
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.header-content {
+	text-align: left;
+	width: 92%;
+	position: absolute;
+	left: 50%;
+	top: 50vh;
+	transform: translate(-50%, -50%);
+}
+
+.nav-holder nav li a:hover {
+	text-decoration: none !important;
+}
+
+.nav-holder nav li a.act-link span::before {
+	content: '';
+	position: absolute;
+	left: 40%;
+	background: #cc0000;
+	top: 35px;
+	height: 3px;
+	margin-left: -30%;
+	width: 80%;
+	border-radius: 3px;
+	z-index: 2;
+}
+
+.sec-tamil h1 {
+	font-family: 'Uni Ila.Sundaram-02', sans-serif !important;
+}
+
+.header-content h1 {
+	font-size: 3.5rem;
+	color: #fff;
+}
+
+.header-content h3 {
+	color: #fff;
+	margin-top: 2rem;
+}
+
+.header-content span {
+	color: #fff;
+	background: #cc0000;
+	font-family: Roboto, sans-serif !important;
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 0px 10px;
+}
+
+.custom-form {
+	float: left;
+	width: 100%;
+	position: relative;
+	background: #cc000082;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.custom-form label.vis-label i {
+	top: 17px;
+}
+
+.action-button {
+	background: transparent;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+.action-button:hover {
+	color: #fff;
+	background: #cc0000;
+	text-decoration: none;
+}
+
+/* END: Header Section */
+
+/* START: Registration Section */
+.event_numbers img {
+	width: 55px;
+}
+
+.event_numbers p {
+	text-align: center;
+	margin-top: 0;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	font-weight: 500;
+	line-height: 2.2rem;
+}
+
+.event_numbers p.digital_numbers {
+	font-size: 2.6rem;
+	margin-top: 5px;
+	font-weight: 700;
+}
+
+/* END: Registration Section */
+
+/* START: Charter Section */
+.section-gray {
+	background-image: url(../images/charter/charter-bg.html);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.service_box {
+	text-align: center;
+	border-radius: 5px;
+	background-color: #1d1d1d;
+	transition: all .3s ease 0s;
+}
+
+.box-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	padding: 0px 20px;
+}
+
+.service_box .service_icon {
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+	border-radius: 50px;
+	background: #1d1d1d;
+	border: 2px solid #fff;
+	transform: translateY(-50%);
+	transition: all .3s ease 0s
+}
+
+.service_box .service_icon i {
+	color: #ffa500;
+	margin-top: 14%;
+}
+
+.service_box h3 {
+	position: relative;
+	margin: 0;
+	color: #fff;
+	top: 12%;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 37px;
+}
+
+hr.style-one {
+	border: 0;
+	height: 3px;
+	background: rgb(29, 29, 29);
+	background-image: -webkit-linear-gradient(left, #dedede, rgb(29, 29, 29), #dedede);
+	background-image: -moz-linear-gradient(left, #dedede, rgb(29, 29, 29), #dedede);
+	background-image: -ms-linear-gradient(left, #dedede, rgb(29, 29, 29), #dedede);
+	background-image: -o-linear-gradient(left, #dedede, rgb(29, 29, 29), #dedede);
+}
+
+h2.trust {
+	font-family: Roboto, sans-serif !important;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.sec-tamil h2.trust {
+	letter-spacing: 2px;
+}
+
+/* END: Charter Section */
+
+/* START: News Section */
+#newsGallery .carousel-inner {
+	border-radius: 10px;
+}
+
+#newsGallery .sc-btn.sc-next,
+#newsGallery .ss-slider-cont-next {
+	right: 20px;
+}
+
+#newsGallery .sc-btn.sc-prev,
+#newsGallery .ss-slider-cont-prev {
+	left: 20px;
+}
+
+.ss-icon-btn {
+	top: 22%;
+}
+
+.btn-read {
+	border: 1px solid #cc0000;
+	color: #cc0000 !important;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: 400;
+	float: left !important;
+	box-shadow: 0px 0px 5px rgba(239, 51, 51, 0.44);
+}
+
+.btn-read:hover {
+	background: #cc0000;
+	color: #fff !important;
+	border-color: #fff;
+}
+
+.list-single-main-item p {
+	max-height: 100px;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+.social-header {
+	position: relative;
+	background: #1d1d1d;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+	text-align: left;
+}
+
+.heading {
+	display: inline;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.sec-tamil .heading {
+	font-size: 1.3rem;
+	line-height: 2.4rem;
+}
+
+.social-link {
+	display: inline;
+	float: right;
+}
+
+.social-link a {
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+.social-link i {
+	border-radius: 5px;
+	color: #fff;
+	height: 34px;
+	width: 34px;
+	text-align: center;
+	/* background: #cc0000; */
+	line-height: 34px;
+}
+
+.social-link a.active i {
+	border: 2px solid #fff;
+	height: 38px;
+	width: 38px;
+}
+
+/* END: News Section */
+
+/* START: Map Section */
+.map-section {
+	background-image: url(../images/map-bg.html);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.map-section .section-title h2 {
+	color: #fff;
+}
+
+.tnmap path {
+	cursor: pointer;
+}
+
+.on {
+	fill: #cc0000;
+}
+
+.map-right h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.dis-block {
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='white' stroke-width='5' stroke-dasharray='6%2c 14' stroke-dashoffset='31' stroke-linecap='square'/%3e%3c/svg%3e");
+	border-radius: 10px;
+	width: 100%;
+	padding: 15px;
+}
+
+.dis-block h4 {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+
+.dis-block h3 {
+	font-family: Digital-7 !important;
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 600;
+	padding: 0px;
+	margin: 0px;
+}
+
+.map-listing {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	height: 110px;
+}
+
+.map-listing img {
+	object-fit: cover;
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+}
+
+.map-carousel-button {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.map-carousel-button-next {
+	color: #fff;
+	right: -45px;
+	padding-right: 20px;
+	border-radius: 60px 0 0 60px;
+}
+
+.map-carousel-button-prev {
+	color: #fff;
+	left: -45px;
+	padding-left: 20px;
+	border-radius: 0 60px 60px 0;
+}
+
+/* END: Map Section */
+
+/* START: Gallery Section */
+.gallery-section {
+	background-image: url(../images/gallery/bg.html);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 84vh;
+}
+
+.gallery-section .section-title h2 {
+	color: #fff;
+}
+
+.swiper-slide-active .testi-item {
+	background: transparent;
+}
+
+.gallery-text {
+	padding: 0px;
+	overflow: hidden;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	transition: all .3s ease-in-out;
+}
+
+.gallery-text img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	object-position: top;
+}
+
+/* START: Gallery Section */
+
+.social-footer i {
+	border: 1px solid #fff;
+	margin-right: 2px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 28px;
+	height: 30px;
+	width: 30px;
+	margin-top: -5px;
+}
+
+/* Charter Section Underline */
+#charter .section-separator:before {
+	margin-left: -110px;
+	width: 220px;
+}
+
+#map .section-separator:before {
+	margin-left: -70px;
+	width: 145px;
+}
+
+#media .section-separator:before {
+	margin-left: -262px;
+	width: 522px;
+}
+
+#gallery .section-separator:before {
+	margin-left: -53px;
+	width: 104px;
+}
+
+.swal-button {
+	background-color: #cc0000 !important;
+}
+
+.swal-button:focus {
+	outline: none;
+	box-shadow: none !important;
+}
